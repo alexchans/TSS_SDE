@@ -14,7 +14,7 @@ conda activate tss_sde
 # ===== System to run on: change this one line (ala / tri / tetra) =====
 SYS=ala
 STEPS=5000
-DIFFUSION_SCALE=0.4
+DIFFUSION_SCALE=0.4 # set diffusion scale to 1 for tri and tetra
 # true -> deterministic ODE rollout (g=0), written with a _no_diffusion suffix so it
 # sits alongside the stochastic trajectory rather than overwriting it. Set the same
 # flag in the eval scripts to evaluate it. DIFFUSION_SCALE is ignored when true.
