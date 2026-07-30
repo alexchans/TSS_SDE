@@ -2,12 +2,6 @@
 __pycache__/
 *.pyc
 
-# Data (too large for GitHub)
-data/*.npy
-data/*.xyz
-# ...except the alanine dipeptide set, shipped as a runnable example
-!data/ala.npy
-
 # Trajectories
 trajectories/*.npy
 trajectories/*.xyz
